@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/huawei/c8817d/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/huawei/c8817d/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/c8817d/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
     vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
@@ -73,9 +74,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
     vendor/huawei/c8817d/proprietary/etc/camera/tornado/TornadoI.ini:system/etc/camera/tornado/TornadoI.ini \
     vendor/huawei/c8817d/proprietary/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
+    vendor/huawei/c8817d/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/huawei/c8817d/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8817d/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/c8817d/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/huawei/c8817d/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/huawei/c8817d/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
+    vendor/huawei/c8817d/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/c8817d/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
