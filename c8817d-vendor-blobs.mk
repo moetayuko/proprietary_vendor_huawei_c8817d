@@ -44,44 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/huawei/c8817d/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/huawei/c8817d/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/c8817d/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_normal.dat:system/etc/camera/davinci/default/cm_normal.dat \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_sky.dat:system/etc/camera/davinci/default/cm_sky.dat \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/cm_sunset.dat:system/etc/camera/davinci/default/cm_sunset.dat \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/imgproc.xml:system/etc/camera/davinci/default/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/default/multiframe.xml:system/etc/camera/davinci/default/multiframe.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/imx214_foxconn/imgproc.xml:system/etc/camera/davinci/imx214_foxconn/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/imx214_sunny/imgproc.xml:system/etc/camera/davinci/imx214_sunny/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/imx219_liteon/imgproc.xml:system/etc/camera/davinci/imx219_liteon/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/imx219_ofilm/imgproc.xml:system/etc/camera/davinci/imx219_ofilm/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/mt9d015_sunny_p2m19a/imgproc.xml:system/etc/camera/davinci/mt9d015_sunny_p2m19a/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/ov2680_ofilm_fe16/imgproc.xml:system/etc/camera/davinci/ov2680_ofilm_fe16/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/ov8858_foxconn/imgproc.xml:system/etc/camera/davinci/ov8858_foxconn/imgproc.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
-    vendor/huawei/c8817d/proprietary/etc/camera/smartae/config/imx214_foxconn/SmartAE.xml:system/etc/camera/smartae/config/imx214_foxconn/SmartAE.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/smartae/config/imx214_sunny/SmartAE.xml:system/etc/camera/smartae/config/imx214_sunny/SmartAE.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/smartae/config/ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/config/ov5648_foxconn/SmartAE.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/smartae/config/s5k4e1_sunny/SmartAE.xml:system/etc/camera/smartae/config/s5k4e1_sunny/SmartAE.xml \
-    vendor/huawei/c8817d/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/NightModelTOA.model:system/etc/camera/tornado/NightModelTOA.model \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/SunsetMinMaxTOA.txt:system/etc/camera/tornado/SunsetMinMaxTOA.txt \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
-    vendor/huawei/c8817d/proprietary/etc/camera/tornado/TornadoI.ini:system/etc/camera/tornado/TornadoI.ini \
-    vendor/huawei/c8817d/proprietary/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
-    vendor/huawei/c8817d/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/huawei/c8817d/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8817d/proprietary/lib/libhdr.so:system/lib/libhdr.so \
-    vendor/huawei/c8817d/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/huawei/c8817d/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/huawei/c8817d/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
-    vendor/huawei/c8817d/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/c8817d/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
@@ -561,6 +527,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
+    vendor/huawei/c8817d/proprietary/lib/libcutils.so:system/lib/libcutils.so \
     vendor/huawei/c8817d/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/c8817d/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/huawei/c8817d/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
