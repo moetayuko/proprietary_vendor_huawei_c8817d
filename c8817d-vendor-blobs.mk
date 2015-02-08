@@ -821,30 +821,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Bluetooth_cal.acdb:system/etc/sound_param/c8817d/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/General_cal.acdb:system/etc/sound_param/c8817d/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Global_cal.acdb:system/etc/sound_param/c8817d/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Handset_cal.acdb:system/etc/sound_param/c8817d/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Hdmi_cal.acdb:system/etc/sound_param/c8817d/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Headset_cal.acdb:system/etc/sound_param/c8817d/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Speaker_cal.acdb:system/etc/sound_param/c8817d/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/mixer_paths.xml:system/etc/sound_param/c8817d/mixer_paths.xml \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Bluetooth_cal.acdb:system/etc/sound_param/cherry/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/General_cal.acdb:system/etc/sound_param/cherry/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Global_cal.acdb:system/etc/sound_param/cherry/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Handset_cal.acdb:system/etc/sound_param/cherry/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Hdmi_cal.acdb:system/etc/sound_param/cherry/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Headset_cal.acdb:system/etc/sound_param/cherry/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Speaker_cal.acdb:system/etc/sound_param/cherry/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/mixer_paths.xml:system/etc/sound_param/cherry/mixer_paths.xml \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Bluetooth_cal.acdb:system/etc/sound_param/default/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/General_cal.acdb:system/etc/sound_param/default/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Global_cal.acdb:system/etc/sound_param/default/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Handset_cal.acdb:system/etc/sound_param/default/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Hdmi_cal.acdb:system/etc/sound_param/default/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Headset_cal.acdb:system/etc/sound_param/default/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Speaker_cal.acdb:system/etc/sound_param/default/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/mixer_paths.xml:system/etc/sound_param/default/mixer_paths.xml \
     vendor/huawei/c8817d/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
