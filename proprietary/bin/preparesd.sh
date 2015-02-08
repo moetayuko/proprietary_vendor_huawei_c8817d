@@ -4,7 +4,14 @@ PATH_MNT_SDCARD=/mnt/sdcard
 PATH_SOURCE_SD=/storage/emulated/0
 
 if [ 1 -eq $(getprop persist.sys.primarysd) ];then
-    PATH_SOURCE_SD=/storage/sdcard1
+      cd /dev/block
+
+      if [ mmcblk1 -eq $(ls mmcblk1) ];then
+           PATH_SOURCE_SD=/storage/sdcard1
+      else
+           PATH_SOURCE_SD=/storage/emulated/0
+           setprop persist.sys.primarysd 0
+      fi
 fi
 
 mount -o remount /

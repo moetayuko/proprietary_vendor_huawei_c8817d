@@ -552,8 +552,8 @@
         <ctl name="RDAC2 MUX" value="RX2" />
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
-        <ctl name="RX1 Digital Volume" value="80" />
-    	<ctl name="RX2 Digital Volume" value="80" />
+        <ctl name="RX1 Digital Volume" value="76" />
+    	<ctl name="RX2 Digital Volume" value="76" />
     </path>
     
     <path name="headphone-fm">
@@ -563,8 +563,8 @@
         <ctl name="RDAC2 MUX" value="RX2" />
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
-        <ctl name="RX1 Digital Volume" value="76" />
-        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX1 Digital Volume" value="72" />
+        <ctl name="RX2 Digital Volume" value="72" />
     </path>
 
     <path name="headset-mic">
@@ -586,7 +586,7 @@
 
     <path name="sidetone-handset">
         <path name="sidetone-iir" />
-        <ctl name="IIR1 INP1 Volume" value="53" />
+        <ctl name="IIR1 INP1 Volume" value="0" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
     </path>
 
@@ -594,7 +594,7 @@
         <path name="sidetone-iir" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
         <ctl name="RX2 MIX2 INP1" value="IIR1" />
-        <ctl name="IIR1 INP1 Volume" value="53" />
+        <ctl name="IIR1 INP1 Volume" value="0" />
     </path>
 
     <path name="voice-handset">
@@ -629,9 +629,9 @@
     <path name="speaker-and-headphones">
         <path name="headphones" />
         <path name="speaker" />
-	<ctl name="RX1 Digital Volume" value="87" />
-	<ctl name="RX2 Digital Volume" value="87" />
-	<ctl name="RX3 Digital Volume" value="87" />
+	<ctl name="RX1 Digital Volume" value="83" />
+	<ctl name="RX2 Digital Volume" value="83" />
+	<ctl name="RX3 Digital Volume" value="83" />
     </path>
 
     <path name="usb-headphones">
@@ -693,7 +693,7 @@
         <ctl name="MI2S_TX Channels" value="Two" />
         <ctl name="ADC2 MUX" value="INP3" />
 	<ctl name="ADC1 Volume" value="6" />
-	<ctl name="ADC2 Volume" value="6" />
+	<ctl name="ADC3 Volume" value="6" />
 	<ctl name="DEC1 Volume" value="84" />
 	<ctl name="DEC2 Volume" value="84" />
     </path>
@@ -701,7 +701,7 @@
     <path name="dmic-endfire">
         <path name="speaker-dmic-endfire" />
         <ctl name="ADC1 Volume" value="6" />
-	<ctl name="ADC2 Volume" value="6" />
+	<ctl name="ADC3 Volume" value="6" />
 	<ctl name="DEC1 Volume" value="84" />
 	<ctl name="DEC2 Volume" value="84" />
     </path>
@@ -713,7 +713,7 @@
     <path name="voice-dmic-ef">
         <path name="dmic-endfire" />
         <ctl name="ADC1 Volume" value="6" />
-	<ctl name="ADC2 Volume" value="6" />
+	<ctl name="ADC3 Volume" value="6" />
 	<ctl name="DEC1 Volume" value="84" />
 	<ctl name="DEC2 Volume" value="84" />
     </path>
@@ -741,20 +741,20 @@
     <path name="2ndMIC">
         <path name="adc2" />
         <ctl name="ADC2 MUX" value="INP3" />
-        <ctl name="ADC2 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC2 Volume" value="84" />
     </path>
 
     <path name="autommi_secondmic">
         <path name="adc2" />
         <ctl name="ADC2 MUX" value="INP3" />
-        <ctl name="ADC2 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC2 Volume" value="84" />
     </path>
     
     <path name="autommi_speaker">
         <path name="speaker" />
-        <ctl name="RX3 Digital Volume" value="87" />
+        <ctl name="RX3 Digital Volume" value="86" />
     </path>
 
     <path name="autommi_receiver">
