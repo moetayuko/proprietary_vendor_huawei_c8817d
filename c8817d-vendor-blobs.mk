@@ -529,7 +529,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    vendor/huawei/c8817d/proprietary/lib/libcutils.so:system/lib/libcutils.so \
     vendor/huawei/c8817d/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/c8817d/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/huawei/c8817d/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
