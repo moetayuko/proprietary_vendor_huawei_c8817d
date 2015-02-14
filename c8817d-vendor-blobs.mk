@@ -552,6 +552,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/etc/firmware/cherry_gis_fw.img:system/etc/firmware/cherry_gis_fw.img \
     vendor/huawei/c8817d/proprietary/etc/firmware/cherry_ofilm_fw.img:system/etc/firmware/cherry_ofilm_fw.img \
     vendor/huawei/c8817d/proprietary/etc/firmware/cherry_yassy_fw.img:system/etc/firmware/cherry_yassy_fw.img \
+    vendor/huawei/c8817d/proprietary/etc/firmware/fused_nvm_y635_cl00.bin:system/etc/firmware/fused_nvm_y635_cl00.bin \
     vendor/huawei/c8817d/proprietary/etc/firmware/g620S_junda_fw.img:system/etc/firmware/g620S_junda_fw.img \
     vendor/huawei/c8817d/proprietary/etc/firmware/g620S_ofilm_fw.img:system/etc/firmware/g620S_ofilm_fw.img \
     vendor/huawei/c8817d/proprietary/etc/firmware/g620S_truly_fw.img:system/etc/firmware/g620S_truly_fw.img \
@@ -562,7 +563,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/etc/firmware/g760-HB3748B8EBC_XWD_SDI.fw:system/etc/firmware/g760-HB3748B8EBC_XWD_SDI.fw \
     vendor/huawei/c8817d/proprietary/etc/firmware/g760L_lensone_fw.img:system/etc/firmware/g760L_lensone_fw.img \
     vendor/huawei/c8817d/proprietary/etc/firmware/g760L_ofilm_fw.img:system/etc/firmware/g760L_ofilm_fw.img \
-    vendor/huawei/c8817d/proprietary/etc/firmware/goodix_fw_g620S.bin:system/etc/firmware/goodix_fw_g620S.bin \
+    vendor/huawei/c8817d/proprietary/etc/firmware/goodix_new_ofilm_fw.bin:system/etc/firmware/goodix_new_ofilm_fw.bin \
+    vendor/huawei/c8817d/proprietary/etc/firmware/goodix_ofilm_fw.bin:system/etc/firmware/goodix_ofilm_fw.bin \
     vendor/huawei/c8817d/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/huawei/c8817d/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/huawei/c8817d/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -723,7 +725,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/regdbdump:system/bin/regdbdump \
     vendor/huawei/c8817d/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/huawei/c8817d/proprietary/bin/send_data_srv:system/bin/send_data_srv \
-    vendor/huawei/c8817d/proprietary/bin/server_agent:system/bin/server_agent \
     vendor/huawei/c8817d/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
     vendor/huawei/c8817d/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/huawei/c8817d/proprietary/bin/tinycap:system/bin/tinycap \
@@ -820,30 +821,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Bluetooth_cal.acdb:system/etc/sound_param/c8817d/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/General_cal.acdb:system/etc/sound_param/c8817d/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Global_cal.acdb:system/etc/sound_param/c8817d/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Handset_cal.acdb:system/etc/sound_param/c8817d/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Hdmi_cal.acdb:system/etc/sound_param/c8817d/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Headset_cal.acdb:system/etc/sound_param/c8817d/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/Speaker_cal.acdb:system/etc/sound_param/c8817d/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/c8817d/mixer_paths.xml:system/etc/sound_param/c8817d/mixer_paths.xml \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Bluetooth_cal.acdb:system/etc/sound_param/cherry/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/General_cal.acdb:system/etc/sound_param/cherry/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Global_cal.acdb:system/etc/sound_param/cherry/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Handset_cal.acdb:system/etc/sound_param/cherry/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Hdmi_cal.acdb:system/etc/sound_param/cherry/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Headset_cal.acdb:system/etc/sound_param/cherry/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/Speaker_cal.acdb:system/etc/sound_param/cherry/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/cherry/mixer_paths.xml:system/etc/sound_param/cherry/mixer_paths.xml \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Bluetooth_cal.acdb:system/etc/sound_param/default/Bluetooth_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/General_cal.acdb:system/etc/sound_param/default/General_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Global_cal.acdb:system/etc/sound_param/default/Global_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Handset_cal.acdb:system/etc/sound_param/default/Handset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Hdmi_cal.acdb:system/etc/sound_param/default/Hdmi_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Headset_cal.acdb:system/etc/sound_param/default/Headset_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/Speaker_cal.acdb:system/etc/sound_param/default/Speaker_cal.acdb \
-    vendor/huawei/c8817d/proprietary/etc/sound_param/default/mixer_paths.xml:system/etc/sound_param/default/mixer_paths.xml \
     vendor/huawei/c8817d/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
@@ -916,7 +893,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/huawei/c8817d/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
@@ -925,9 +901,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libextendedremotedisplay.so:system/lib/libextendedremotedisplay.so \
     vendor/huawei/c8817d/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8817d/proprietary/lib/libixml.so:system/lib/libixml.so \
-    vendor/huawei/c8817d/proprietary/lib/libkpencore.so:system/lib/libkpencore.so \
     vendor/huawei/c8817d/proprietary/lib/libminui.so:system/lib/libminui.so \
-    vendor/huawei/c8817d/proprietary/lib/libmtxxmohuanbi.so:system/lib/libmtxxmohuanbi.so \
     vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/c8817d/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/huawei/c8817d/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
