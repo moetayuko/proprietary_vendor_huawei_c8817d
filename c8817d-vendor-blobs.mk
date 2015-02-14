@@ -820,6 +820,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/huawei/c8817d/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/huawei/c8817d/proprietary/lib/libcalmodule_akm.so:system/lib/libcalmodule_akm.so \
+    vendor/huawei/c8817d/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/huawei/c8817d/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
