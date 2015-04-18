@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/c8817d/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/huawei/c8817d/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
     vendor/huawei/c8817d/proprietary/lib/libtrack.so:system/lib/libtrack.so \
@@ -727,10 +728,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/send_data_srv:system/bin/send_data_srv \
     vendor/huawei/c8817d/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
     vendor/huawei/c8817d/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/huawei/c8817d/proprietary/bin/tinycap:system/bin/tinycap \
-    vendor/huawei/c8817d/proprietary/bin/tinymix:system/bin/tinymix \
-    vendor/huawei/c8817d/proprietary/bin/tinypcminfo:system/bin/tinypcminfo \
-    vendor/huawei/c8817d/proprietary/bin/tinyplay:system/bin/tinyplay \
     vendor/huawei/c8817d/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/huawei/c8817d/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/huawei/c8817d/proprietary/xbin/qlogd:system/xbin/qlogd \
@@ -901,7 +898,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libextendedremotedisplay.so:system/lib/libextendedremotedisplay.so \
     vendor/huawei/c8817d/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8817d/proprietary/lib/libixml.so:system/lib/libixml.so \
-    vendor/huawei/c8817d/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/c8817d/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/huawei/c8817d/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
