@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/c8817d/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/c8817d/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/huawei/c8817d/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
     vendor/huawei/c8817d/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
     vendor/huawei/c8817d/proprietary/lib/libtrack.so:system/lib/libtrack.so \
