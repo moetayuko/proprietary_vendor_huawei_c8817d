@@ -822,37 +822,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/huawei/c8817d/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/huawei/c8817d/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/huawei/c8817d/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/c8817d/proprietary/xbin/wifi_aging:system/xbin/wifi_aging \
     vendor/huawei/c8817d/proprietary/xbin/wifi_power_off:system/xbin/wifi_power_off \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_c8817d_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_c8817d_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_c8817e_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_c8817e_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL10.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL20.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL20.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l01_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l01_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l02_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l02_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l03_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l03_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_ul_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_ul_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g621_tl_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g621_tl_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_l01.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_l03.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_tl.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_tl.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_ul.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_ul.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l01.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l01_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l01_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l02.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l02_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l02_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l03.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l03_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l03_vb.bin \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.4.sh:system/wifi/wifi_mt_2.4.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.5.sh:system/wifi/wifi_mt_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_5g_2.5.sh:system/wifi/wifi_mt_5g_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.4.sh:system/wifi/wifi_mt_finish_2.4.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.5.sh:system/wifi/wifi_mt_finish_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_5g_2.5.sh:system/wifi/wifi_mt_finish_5g_2.5.sh \
     vendor/huawei/c8817d/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
     vendor/huawei/c8817d/proprietary/lib/libWnnEngDic.so:system/lib/libWnnEngDic.so \
     vendor/huawei/c8817d/proprietary/lib/libWnnJpnDic.so:system/lib/libWnnJpnDic.so \
@@ -874,23 +845,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libextendedremotedisplay.so:system/lib/libextendedremotedisplay.so \
     vendor/huawei/c8817d/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8817d/proprietary/lib/libixml.so:system/lib/libixml.so \
-    vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/huawei/c8817d/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/ice40-hcd.ko:system/lib/modules/ice40-hcd.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mcDrvModule.ko:system/lib/modules/mcDrvModule.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mcKernelApi.ko:system/lib/modules/mcKernelApi.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
+    vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so
