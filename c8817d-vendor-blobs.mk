@@ -720,8 +720,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/oem_sar_main:system/bin/oem_sar_main \
     vendor/huawei/c8817d/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/c8817d/proprietary/bin/preparesd.sh:system/bin/preparesd.sh \
-    vendor/huawei/c8817d/proprietary/bin/qrngd:system/bin/qrngd \
-    vendor/huawei/c8817d/proprietary/bin/qrngp:system/bin/qrngp \
     vendor/huawei/c8817d/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/huawei/c8817d/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
     vendor/huawei/c8817d/proprietary/bin/regdbdump:system/bin/regdbdump \
