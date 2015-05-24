@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libbtpower.so:system/lib/libbtpower.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
-    vendor/huawei/c8817d/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/huawei/c8817d/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/c8817d/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8817d/proprietary/lib/libhdr.so:system/lib/libhdr.so \
@@ -691,7 +690,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/brctl:system/bin/brctl \
     vendor/huawei/c8817d/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8817d/proprietary/bin/callife:system/bin/callife \
-    vendor/huawei/c8817d/proprietary/bin/crda:system/bin/crda \
     vendor/huawei/c8817d/proprietary/bin/device_monitor:system/bin/device_monitor \
     vendor/huawei/c8817d/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
     vendor/huawei/c8817d/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
@@ -722,7 +720,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/preparesd.sh:system/bin/preparesd.sh \
     vendor/huawei/c8817d/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/huawei/c8817d/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/huawei/c8817d/proprietary/bin/regdbdump:system/bin/regdbdump \
     vendor/huawei/c8817d/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/huawei/c8817d/proprietary/bin/send_data_srv:system/bin/send_data_srv \
     vendor/huawei/c8817d/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
@@ -745,7 +742,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/c8817d/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/c8817d/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    vendor/huawei/c8817d/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -776,16 +772,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/c8817d/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/c8817d/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/c8817d/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/c8817d/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/c8817d/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/c8817d/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
-    vendor/huawei/c8817d/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/huawei/c8817d/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/huawei/c8817d/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/c8817d/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/huawei/c8817d/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
