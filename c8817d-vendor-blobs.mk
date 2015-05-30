@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libbtpower.so:system/lib/libbtpower.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
-    vendor/huawei/c8817d/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/huawei/c8817d/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/c8817d/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8817d/proprietary/lib/libhdr.so:system/lib/libhdr.so \
@@ -690,7 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/brctl:system/bin/brctl \
     vendor/huawei/c8817d/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8817d/proprietary/bin/callife:system/bin/callife \
-    vendor/huawei/c8817d/proprietary/bin/crda:system/bin/crda \
     vendor/huawei/c8817d/proprietary/bin/device_monitor:system/bin/device_monitor \
     vendor/huawei/c8817d/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
     vendor/huawei/c8817d/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
@@ -719,11 +717,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/oem_sar_main:system/bin/oem_sar_main \
     vendor/huawei/c8817d/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/c8817d/proprietary/bin/preparesd.sh:system/bin/preparesd.sh \
-    vendor/huawei/c8817d/proprietary/bin/qrngd:system/bin/qrngd \
-    vendor/huawei/c8817d/proprietary/bin/qrngp:system/bin/qrngp \
     vendor/huawei/c8817d/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/huawei/c8817d/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/huawei/c8817d/proprietary/bin/regdbdump:system/bin/regdbdump \
     vendor/huawei/c8817d/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/huawei/c8817d/proprietary/bin/send_data_srv:system/bin/send_data_srv \
     vendor/huawei/c8817d/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
@@ -746,7 +741,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/c8817d/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/c8817d/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    vendor/huawei/c8817d/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -777,16 +771,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/c8817d/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/c8817d/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/c8817d/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/c8817d/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/c8817d/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/c8817d/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/c8817d/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
-    vendor/huawei/c8817d/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/huawei/c8817d/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/huawei/c8817d/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/c8817d/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/huawei/c8817d/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/c8817d/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -821,37 +810,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/huawei/c8817d/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/huawei/c8817d/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/huawei/c8817d/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/c8817d/proprietary/xbin/wifi_aging:system/xbin/wifi_aging \
     vendor/huawei/c8817d/proprietary/xbin/wifi_power_off:system/xbin/wifi_power_off \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_c8817d_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_c8817d_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_c8817e_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_c8817e_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL10.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL20.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Che1-CL20.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l01_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l01_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l02_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l02_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_l03_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_l03_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g620s_ul_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g620s_ul_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g621_tl_VC.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g621_tl_VC.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_l01.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_l03.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_tl.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_tl.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_g760_ul.bin:system/etc/wifi/WCNSS_hw_wlan_nv_g760_ul.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l01.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l01_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l01_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l02.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l02_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l02_vb.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l03.bin \
-    vendor/huawei/c8817d/proprietary/etc/wifi/WCNSS_hw_wlan_nv_y550_l03_vb.bin:system/etc/wifi/WCNSS_hw_wlan_nv_y550_l03_vb.bin \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.4.sh:system/wifi/wifi_mt_2.4.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_2.5.sh:system/wifi/wifi_mt_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_5g_2.5.sh:system/wifi/wifi_mt_5g_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.4.sh:system/wifi/wifi_mt_finish_2.4.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_2.5.sh:system/wifi/wifi_mt_finish_2.5.sh \
-    vendor/huawei/c8817d/proprietary/wifi/wifi_mt_finish_5g_2.5.sh:system/wifi/wifi_mt_finish_5g_2.5.sh \
     vendor/huawei/c8817d/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
     vendor/huawei/c8817d/proprietary/lib/libWnnEngDic.so:system/lib/libWnnEngDic.so \
     vendor/huawei/c8817d/proprietary/lib/libWnnJpnDic.so:system/lib/libWnnJpnDic.so \
@@ -873,23 +833,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8817d/proprietary/lib/libextendedremotedisplay.so:system/lib/libextendedremotedisplay.so \
     vendor/huawei/c8817d/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8817d/proprietary/lib/libixml.so:system/lib/libixml.so \
-    vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/huawei/c8817d/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/ice40-hcd.ko:system/lib/modules/ice40-hcd.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mcDrvModule.ko:system/lib/modules/mcDrvModule.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mcKernelApi.ko:system/lib/modules/mcKernelApi.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/huawei/c8817d/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
+    vendor/huawei/c8817d/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so
